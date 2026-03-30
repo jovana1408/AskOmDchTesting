@@ -1,0 +1,90 @@
+===========================================
+   IZVESTAJ TESTIRANJA - ASKOMDCH.COM     
+===========================================
+Datum: 17.03.2026 15:22:02
+===========================================
+
+------------------------------------------
+Test:    RegistrationTest
+Opis:    Registracija novog korisnika: testuser123
+Status:  PROSAO
+Vreme:   15:22:02
+
+------------------------------------------
+Test:    LoginTest
+Opis:    Prijava korisnika: testuser123
+Status:  PROSAO
+Vreme:   15:22:25
+
+[INFO] Ocekivani username: testuser123 | Pronadjen: testuser123
+[INFO] Ocekivani email: testuser123@gmail.com | Pronadjen: testuser123@gmail.com
+------------------------------------------
+Test:    ProfileDataTest
+Opis:    Provera da li podaci profila odgovaraju podacima registracije
+Status:  PROSAO
+Vreme:   15:22:47
+
+------------------------------------------
+Test:    AddToCartTest
+Opis:    Dodavanje 3 proizvoda iz razlicitih kategorija (Men, Women, Accessories)
+Status:  PROSAO
+Vreme:   15:23:39
+
+[INFO] Broj proizvoda u korpi: 3
+------------------------------------------
+Test:    CartPriceTest
+Opis:    Provera ispravnosti ukupne cene proizvoda u korpi
+Status:  PROSAO
+Vreme:   15:24:18
+
+[INFO] Izracunata suma stavki: $40.0 | Prikazani Subtotal: $40.0
+[INFO] Stranica: https://askomdch.com/ | Vreme ucitavanja: 250 ms
+[INFO] Stranica: https://askomdch.com/store/ | Vreme ucitavanja: 2065 ms
+[INFO] Stranica: https://askomdch.com/product-category/men/ | Vreme ucitavanja: 866 ms
+[INFO] Stranica: https://askomdch.com/product-category/women/ | Vreme ucitavanja: 767 ms
+[INFO] Stranica: https://askomdch.com/product-category/accessories/ | Vreme ucitavanja: 812 ms
+------------------------------------------
+Test:    PageLoadPerformanceTest
+Opis:    Merenje vremena ucitavanja 5 stranica
+Status:  PROSAO
+Vreme:   15:24:32
+
+[INFO] Prosecno vreme ucitavanja: 952,00 ms
+[INFO] =========== PODACI O KOMPANIJI ===========
+[INFO] Naziv sajta:  About – AskOmDch
+[INFO] Naslov:       About Us
+[INFO] Opis:         Click here to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+[INFO] URL:          https://askomdch.com/about/
+[INFO] ==========================================
+------------------------------------------
+Test:    CompanyInfoTest
+Opis:    Prikupljanje podataka o kompaniji sa About stranice
+Status:  PROSAO
+Vreme:   15:24:42
+
+------------------------------------------
+Test:    SearchTest
+Opis:    Pretraga proizvoda po kljucnoj reci 'jeans'
+Status:  PROSAO
+Vreme:   15:24:55
+
+[INFO] Broj pronadjenih proizvoda: 5
+[INFO] Pronadjene cene nakon sortiranja: [20.0, 30.0, 32.0, 45.0, 86.0, 100.0, 145.0]
+------------------------------------------
+Test:    SortByPriceTest
+Opis:    Sortiranje proizvoda po ceni od najnize ka najvisoj (Men kategorija)
+Status:  PROSAO
+Vreme:   15:25:09
+
+------------------------------------------
+Test:    LogoutTest
+Opis:    Odjavljivanje korisnika sa naloga
+Status:  PROSAO
+Vreme:   15:25:27
+
+------------------------------------------
+Test:    EmptyCartTest
+Opis:    Uklanjanje svih proizvoda iz korpe i provera da li je korpa prazna
+Status:  PROSAO
+Vreme:   15:26:10
+
