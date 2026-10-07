@@ -45,11 +45,11 @@ AskOmDchTesting/
 | `LogoutTest` | Odjavljivanje sa naloga |
 | `ProfileDataTest` | Provera da li podaci profila odgovaraju podacima registracije |
 | `AddToCartTest` | Dodavanje 3 proizvoda iz različitih kategorija (Men, Women, Accessories) |
-| `CartPriceTest` | Provera ispravnosti ukupne cene u korpi |
+| `CartPriceTest` | Provera ispravnosti ukupne cene proizvoda u korpi |
 | `EmptyCartTest` | Uklanjanje svih proizvoda iz korpe i provera prazne korpe |
-| `SearchTest` | Pretraga proizvoda po ključnoj reči |
+| `SearchTest` | Pretraga proizvoda po ključnoj reči "jeans" |
 | `SortByPriceTest` | Sortiranje proizvoda po ceni (uzlazno) u kategoriji Men |
-| `PageLoadPerformanceTest` | Merenje vremena učitavanja 5 stranica |
+| `PageLoadPerformanceTest` | Merenje vremena učitavanja 5 stranica i računanje prosečnog vremena |
 | `CompanyInfoTest` | Prikupljanje podataka o kompaniji sa About stranice |
 
 Svi testovi se mogu pokrenuti zajedno preko `DemoSuiteTest` suite klase.
