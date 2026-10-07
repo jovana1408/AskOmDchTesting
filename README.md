@@ -107,3 +107,6 @@ Klasa `LoggerUtil` zapisuje rezultate svakog testa u fajl `test-report.txt` u ro
 [FAIL] SomeTest  — Opis testa
 [INFO] Dodatne informacije o testu
 ```
+## 👩‍💻 Autor
+
+- **Jovana** – [@jovana1408](https://github.com/jovana1408)
